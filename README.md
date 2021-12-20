@@ -1,1 +1,2 @@
-# pli-lcdskin
+# pli-lcdskin ported to openpli
+
