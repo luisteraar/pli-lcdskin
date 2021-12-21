@@ -1,0 +1,3 @@
+if HAVE_COLORLCD400
+SUBDIRS = display400x240
+endif
