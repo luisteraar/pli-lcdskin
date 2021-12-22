@@ -1,2 +1,2 @@
-# pli-lcdskin ported to openpli
-
+# lcdskin ported to openpli
+orig oe-alliance
