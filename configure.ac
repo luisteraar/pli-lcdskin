@@ -3,6 +3,7 @@ AM_INIT_AUTOMAKE([foreign])
 
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
+
 AM_PATH_PYTHON
 
 AC_ARG_WITH(textlcd,
