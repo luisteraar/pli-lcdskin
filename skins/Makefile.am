@@ -1,3 +1,24 @@
+if HAVE_COLORLCD800
+SUBDIRS = display800x480
+endif
+
+if HAVE_COLORLCD720
+SUBDIRS = display720x546
+endif
+
+if HAVE_COLORLCD480
+SUBDIRS = display480x320
+endif
+
+if HAVE_COLORLCD390
+SUBDIRS = display390x240
+endif
+
 if HAVE_COLORLCD400
 SUBDIRS = display400x240
+endif
+
+
+if HAVE_COLORLCD220
+SUBDIRS = display220x176
 endif
