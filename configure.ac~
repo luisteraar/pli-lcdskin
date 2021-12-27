@@ -222,5 +222,4 @@ skins/display480x320/LCDSkin_8/Makefile
 skins/display480x320/LCDSkin_8/meta/Makefile
 skins/display480x320/LCDSkin_9/Makefile
 skins/display480x320/LCDSkin_9/meta/Makefile
-skins/display800x480/Makefile
 ])
