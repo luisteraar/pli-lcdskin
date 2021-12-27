@@ -11,6 +11,6 @@
 	</info>
 
 	<files type="package"> <!-- without version, without .ipk -->
-		<file type="package" name="enigma2-display-oea-lcdskin_11" />
+		<file type="package" name="enigma2-display-lcdskin_11" />
 	</files>
 </default>
