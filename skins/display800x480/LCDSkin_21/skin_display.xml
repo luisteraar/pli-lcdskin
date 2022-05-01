@@ -941,7 +941,7 @@
 
 	<!-- /* ########## Picon Main Panel ########## -->
 	<screen name="MyPiconMainPanel" position="0,0" size="800,480">
-		<widget source="session.CurrentService" render="LcdPicon" position="240,52" size="320,192" halign="center" alphatest="blend">
+		<widget source="session.CurrentService" render="Picon" isFrontDisplayPicon="1" usePicLoad="1" position="240,52" size="320,192" halign="center" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 	</screen>
@@ -949,7 +949,7 @@
 
 	<!-- /* ########## Picon EPG Panel ########## -->
 	<screen name="MyPiconEPGPanel" position="0,0" size="800,480">
-		<widget source="parent.Service" render="LcdPicon" position="240,52" size="320,192" halign="center" alphatest="blend">
+		<widget source="parent.Service" render="Picon" isFrontDisplayPicon="1" usePicLoad="1" position="240,52" size="320,192" halign="center" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 	</screen>
